@@ -10,8 +10,9 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack --mode production"
+    "build": "webpack -p --optimize-minimize"
   },
+  "sideEffects": false,
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",

@@ -7,6 +7,7 @@ module.exports = {
 		path: path.join(__dirname, '/dist'),
 		filename: 'index_bundle.js'
 	},
+	mode: 'production',
 	module: {
 		rules: [
 			{
